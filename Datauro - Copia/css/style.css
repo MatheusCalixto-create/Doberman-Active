@@ -1,0 +1,226 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+
+.prodMaisCompra {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.retangulo {
+    width: 100%; /* Define a largura do retângulo */
+    height: 175px; /* Define a altura do retângulo */
+    background: rgb(113, 9, 181); /* Cor de fundo */
+    border: 2px solid #a21fe353;  /* Borda vermelha escura de 2px */
+    position: absolute; /* Posiciona o elemento de forma absoluta na página */
+    top: 0; /* Posiciona o topo do retângulo no topo da página */
+    left: 0; /* Posiciona o retângulo à esquerda da página */
+    display: flex; /* Usa flexbox para alinhar conteúdo */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.retangulo login{
+    height: 15px;
+    margin-left: 350px;
+    
+}
+
+.categorias {
+    background: hwb(280 4% 33% / 0.858);
+    margin-top: 177px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 2px solid hwb(280 4% 33% / 0.858);
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 2px solid #450764;;
+    border-radius: 10px;
+    display: flex;
+    width: 100px;
+    height: 20px;
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.26s;
+}
+
+.categorias a:hover {
+    background: #ccc;
+    width: 105px;
+}
+
+.retangulo img {
+width: 15%; /* Define a largura da imagem como 20% do retângulo */
+height: 130%; /* Define a altura da imagem como 150% do retângulo */
+object-fit: cover; /* Faz a imagem preencher o retângulo */
+object-position: right top; /* Escolhe o lado esquerdo e centraliza verticalmente*/
+padding-top: 0px; /* Remove o espaçamento superior */
+}
+
+.pesquisa input {
+width: 500px;  /* Define a largura do campo de pesquisa */
+height: 40px; /* Define a altura do campo de pesquisa */
+padding: 0 15px; /* Espaçamento interno do campo de pesquisa */
+border: 2px solid #450764;; /* Cor e espessura da borda */
+border-radius: 20px; /* Arredonda os cantos da borda */
+font-size: 16px; /* Define o tamanho da fonte do texto dentro do campo */
+}   
+
+.produtos-container {
+display: flex; /* Define o contêiner como flexível para organizar os produtos */
+justify-content: space-around; /* Distribui os produtos com espaçamento igual */
+margin-top: 20px; /* Adiciona um espaço acima do contêiner */
+}
+
+.produto {
+width: 300px; /* Define a largura de cada produto */
+background-color: #f0f0f0;  /* Fundo cinza claro */
+text-align: center; /* Centraliza o texto */
+border: 1px solid #ccc; /* Define uma borda cinza clara */
+padding: 20px; /* Aumentando o padding */
+border-radius: 10px; /* Bordas mais arredondadas */
+}
+
+.produto img {
+width: 100%; /* Define a largura de cada produto */
+height: auto;  /* Ajusta a altura proporcionalmente */
+border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior */
+margin-bottom: 15px; /* Adiciona um espaçamento abaixo da imagem */
+}
+
+.nome-produto {
+font-size: 18px; /* Define o tamanho da fonte do nome do produto */
+font-weight: bold; /* Define o texto em negrito */
+}
+
+.preco-produto {
+font-size: 20px; /* Define o tamanho da fonte do preço do produto */
+color: rgb(24, 4, 4); /* Define a cor do preço como vermelho */
+margin-top: 10px;  /* Adiciona espaçamento acima do preço */
+}
+
+.produtos-container, .produtos-container1 {
+display: flex; /* Define o contêiner como flexível para organizar os produtos */
+justify-content: space-around; /* Distribui os produtos com espaçamento igual */
+margin-top: 20px;/* Adiciona um espaço acima do contêiner */
+max-width: 1200px; /* Aumentando a largura máxima */
+margin: 20px auto; /* Centralizando o container */
+}
+
+.produto {
+width: 320px; /* Define a largura de cada produto */
+background-color: #f0f0f0; /* Fundo cinza */
+text-align: center; /* Centraliza o texto dentro do produto */
+border: 1px solid #ccc;  /* Adiciona uma borda cinza clara */
+padding: 20px; /* Adiciona espaçamento interno */
+border-radius: 20px; /* Bordas mais arredondadas */
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra maior */
+}
+
+.produto:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.produto img {
+width: 100%; /* Faz a imagem ocupar toda a largura do contêiner do produto */
+height: auto; /* Ajusta a altura da imagem de forma proporcional */
+border-bottom: 1px solid #ccc; /* Adiciona uma borda na parte inferior da imagem */
+margin-bottom: 15px; /* Adiciona um espaçamento abaixo da imagem */
+}
+
+.nome-produto {
+font-size: 18px; /* Define o tamanho da fonte do nome do produto */
+font-weight: bold; /* Define o nome do produto em negrito */
+}
+
+.preco-produto {
+font-size: 20px; /* Define o tamanho da fonte do preço do produto */
+color: rgba(12, 1, 1, 0.833)(255, 0, 0, 0.833); /* Define a cor do preço como vermelho */
+margin-top: 10px; /* Adiciona espaçamento acima do preço */
+}
+
+button {
+    background: #3c0655c6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px; /* Adiciona um espaçamento entre o preço e o botão */
+}
+
+
+
+   .button a :hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+   }
+
+    .form-control select {
+        margin: 7px 55px;
+        height: 25px;
+        justify-content: space-around;
+    }
+
+    .login {
+        margin-left: 15px;
+    }
+.carousel-inner{
+    margin: 30px;
+    background-color: red;
+    width: 100%;
+}
+    
+.container-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    border-radius: 55px;
+    justify-content: space-around;
+    max-width: 292px;
+    height: 470px;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+
+}
+
+.container-box1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box1 {
+    display: flex;
+    border-radius: 55px;
+    justify-content: space-around;
+    width: 48%;
+   margin: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box1:hover {
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+
+   
+   
