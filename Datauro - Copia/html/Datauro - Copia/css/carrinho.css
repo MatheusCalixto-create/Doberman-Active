@@ -1,0 +1,54 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+.retangulo {
+    width: 100%; /* Define a largura do retângulo */
+    height: 175px; /* Define a altura do retângulo */
+    background: rgb(113, 9, 181);
+    border: 2px solid #450764;  /* Borda vermelha escura de 2px */
+    position: absolute; /* Posiciona o elemento de forma absoluta na página */
+    top: 0; /* Posiciona o topo do retângulo no topo da página */
+    left: 0; /* Posiciona o retângulo à esquerda da página */
+    display: flex; /* Usa flexbox para alinhar conteúdo */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.pesquisa input {
+    width: 500px;  /* Define a largura do campo de pesquisa */
+    height: 40px; /* Define a altura do campo de pesquisa */
+    padding: 0 15px; /* Espaçamento interno do campo de pesquisa */
+    border: 2px solid #450764; /* Cor e espessura da borda */
+    border-radius: 20px; /* Arredonda os cantos da borda */
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do campo */
+    }  
+
+.retangulo img{
+    width: 100%; /* Define a largura da imagem como 15% do retângulo */
+    height: 150%; /* Define a altura da imagem como 150% do retângulo */
+    object-fit: cover; /* Faz a imagem preencher o retângulo */
+    object-position: right top; /* Escolhe o lado esquerdo e centraliza verticalmente*/
+    padding-top: 0px; /* Remove o espaçamento superior */
+} 
+
+ 
+button {
+    height: 45px; 
+    width: 80px;
+   text-decoration: none;
+   background: #bb77dd;
+   cursor: pointer;
+   margin: 10px;
+}
+
+.carrinho-vazio {   
+    text-align: center;
+    padding: 12px;
+    margin: 5px;
+}
+
+
+ 
+
